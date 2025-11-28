@@ -3,121 +3,121 @@ SUPPLY CHAIN INVENTORY SIMULATION (PYTHON)
 
 This project is a full Supply Chain Inventory Simulation System developed using Python with a Graphical User Interface (GUI). The program simulates daily inventory behavior using a Reorder Point (ROP) policy, includes Economic Order Quantity (EOQ) calculation, and allows exporting results to Excel, PDF, and PowerPoint.
 
-FEATURES
+### FEATURES
 
-Interactive GUI using Tkinter
+ Interactive GUI using Tkinter
 
-Light and Dark mode theme option
+ Light and Dark mode theme option
 
-Random daily demand generation
+ Random daily demand generation
 
-Automatic Reorder Point (ROP) policy
+ Automatic Reorder Point (ROP) policy
 
-Lead time handling
+ Lead time handling
 
-Full cost analysis:
+  Full cost analysis:
 
-Holding Cost
+   Holding Cost
 
-Shortage Cost
+   Shortage Cost
 
-Ordering Cost
+   Ordering Cost
 
-Economic Order Quantity (EOQ) calculation
+ Economic Order Quantity (EOQ) calculation
 
-Real-time Inventory Level Plot
+ Real-time Inventory Level Plot
 
-Export results to:
+ Export results to:
 
-Excel (.xlsx)
+   Excel (.xlsx)
 
-PDF (.pdf)
+   PDF (.pdf)
 
-PowerPoint (.pptx)
+   PowerPoint (.pptx)
 
-TECHNOLOGIES USED
+### TECHNOLOGIES USED
 
-Python 3
+ Python 3
 
-Tkinter (GUI)
+ Tkinter (GUI)
 
-Matplotlib (Graphs)
+ Matplotlib (Graphs)
 
-OpenPyXL (Excel Export)
+ OpenPyXL (Excel Export)
 
-ReportLab (PDF Export)
+ ReportLab (PDF Export)
 
-python-pptx (PowerPoint Export)
+ python-pptx (PowerPoint Export)
 
-PROJECT FILES
+### PROJECT FILES
 
-inventory_sim_gui.py --> Main GUI simulation program
+ inventory_sim_gui.py --> Main GUI simulation program
+ 
+ README.txt --> Project documentation
 
-README.txt --> Project documentation
 
+### SIMULATION INPUTS
 
-SIMULATION INPUTS
+ Simulation Days
 
-Simulation Days
+ Initial Inventory
 
-Initial Inventory
+ Reorder Point (ROP)
 
-Reorder Point (ROP)
+ Order Quantity
 
-Order Quantity
+ Lead Time
 
-Lead Time
+ Holding Cost
 
-Holding Cost
+ Shortage Cost
 
-Shortage Cost
+ Ordering Cost
 
-Ordering Cost
+ Minimum Daily Demand
 
-Minimum Daily Demand
+ Maximum Daily Demand
 
-Maximum Daily Demand
+### SIMULATION OUTPUTS
 
-SIMULATION OUTPUTS
+ Inventory Level vs Time Graph
 
-Inventory Level vs Time Graph
+ Final Inventory Level
 
-Final Inventory Level
+ Holding Cost
 
-Holding Cost
+ Shortage Cost
 
-Shortage Cost
+ Ordering Cost
 
-Ordering Cost
+ Total System Cost
 
-Total System Cost
+ Number of Stockout Days
 
-Number of Stockout Days
+ EOQ Value (Approximate)
 
-EOQ Value (Approximate)
+ EXPORT OPTIONS
 
-EXPORT OPTIONS
+ After running the simulation, you can export:
 
-After running the simulation, you can export:
+   Excel file with daily inventory levels
 
-Excel file with daily inventory levels
+   PDF report with full simulation results
 
-PDF report with full simulation results
+   PowerPoint presentation for project defense
 
-PowerPoint presentation for project defense
+### APPLICATIONS
 
-APPLICATIONS
+  Supermarkets and Retail Stores
 
-Supermarkets and Retail Stores
+  Warehouses and Logistics Systems
 
-Warehouses and Logistics Systems
+  Manufacturing Supply Chains
 
-Manufacturing Supply Chains
+  Hospitals and Medical Supply Management
 
-Hospitals and Medical Supply Management
+  Academic Simulation and Operations Research Courses
 
-Academic Simulation and Operations Research Courses
-
-LICENSE
+### LICENSE
 
 This project is provided for educational purposes only. You are free to modify and use it for academic projects.
